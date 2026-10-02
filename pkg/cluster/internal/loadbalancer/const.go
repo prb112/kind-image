@@ -17,4 +17,5 @@ limitations under the License.
 package loadbalancer
 
 // Image defines the loadbalancer image:tag
-const Image = "docker.io/envoyproxy/envoy:v1.36.2"
+// quay.io/kviswana/envoy:1.36.5
+const Image = "quay.io/kviswana/envoy@sha256:88ef3098902aebaa9bbef3c8cb1e0d7ff1a1d0ec19e6b8d005c587f04fc15dae"
